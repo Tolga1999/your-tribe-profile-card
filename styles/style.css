@@ -2,8 +2,11 @@
   box-sizing:border-box;
 }
 
+/* COLOR PALETTE: https://colorhunt.co/palette/9adcfffff89affb2a6ff8aae */
+
 html {
   height:100vh;
+  background-color: rgba(154,220,255,1);
 }
 
 body {
@@ -16,15 +19,13 @@ body {
 }
 
 article {
-  width:50vw;
-  max-width: 25em;
-  min-width:20em;
+  background: rgb(255,138,174);
+  width:75vw;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  /* background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%); */
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
