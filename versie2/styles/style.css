@@ -2,7 +2,7 @@
   box-sizing:border-box; /* account for border + padding to total width for parent container */
 }
 
-/* COLOR PALETTE: https://colorhunt.co/palette/9adcfffff89affb2a6ff8aae */
+/* COLOR PALETTE: https://colorhunt.co/palette/a66cff9c9efeafb4ffb1e1ff */
 
 /* heebo-700 - latin */
 @font-face {
@@ -15,7 +15,7 @@
 }
 
 html {
-  background-color: rgba(154,220,255,1);
+  background-color: rgba(175, 180, 255,1);
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   font-family: 'Heebo';
   justify-content:center;
   align-items:center;
-  color: rgba(0,0,0,1)
+  color: rgba(255, 255, 255,1)
 }
 
 h1 {
@@ -35,8 +35,8 @@ h1 {
 
 article{
   transition: 1s;
-  background: rgba(255,138,174,1);
-  box-shadow: 0.5em 0.75em rgba(0,0,0,0.6);
+  background: rgba(166, 108, 255,1);
+  box-shadow: 0.35em 0.6em rgba(255, 255, 255,1);
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -82,9 +82,9 @@ p {
   padding: 0.5em;
   border: none;
   border-radius: 1em;
-  background-color: rgba(255,248,154,1);
+  background-color: rgba(177, 225, 255,1);
   transition: 0.75s;
-  box-shadow: 0.1em 0.25em rgba(0,0,0,0.7);
+  /* box-shadow: 0.2em 0.25em rgba(255, 255, 255,1); */
   margin-top: 1vw;
 }
 
@@ -94,7 +94,7 @@ p {
 
 /* button hovered changes background color and size */
 .button:hover{
-  background-color: red;
+  background-color: rgba(255,255,255,1);
   transform: scale(1.1);
 }
 
