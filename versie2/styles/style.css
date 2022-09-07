@@ -1,0 +1,180 @@
+* {
+  box-sizing:border-box; /* account for border + padding to total width for parent container */
+}
+
+/* COLOR PALETTE: https://colorhunt.co/palette/9adcfffff89affb2a6ff8aae */
+
+/* heebo-700 - latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/heebo-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/heebo-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  height:100vh;
+  background-color: rgba(154,220,255,1);
+}
+
+body {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Heebo';
+  justify-content:center;
+  align-items:center;
+  color: rgba(0,0,0,1)
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0.3em;
+}
+
+article{
+  transition: 1s;
+  background: rgba(255,138,174,1);
+  box-shadow: 0.5em 0.75em rgba(0,0,0,0.6);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  margin: 0;
+  width:55vw;
+  border-radius: 1em;
+  padding: 1.5em
+}
+
+article:hover {
+  transform: scale(1.25);
+  /* transform: rotateY(180deg); */
+}
+
+/* image front page */
+img {
+  width:12em;
+  position:relative;
+  border-radius: 0.5em;
+}
+
+/* text first front page */
+p { 
+  margin:0
+}
+
+.alignItems{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255,178,166,1);
+  padding: 0.75em;
+  border-radius: 0.5em;
+}
+
+.alignItems p{
+  margin-left: 1em;
+  font-size: 1.25em;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30vw;
+  margin-top: 1em;
+}
+
+.buttons button{
+  font-size: 2em;
+  width: 7vw;
+  padding: 0.5em;
+  border-radius: 10em;
+  background-color: rgba(255,248,154,1);
+  border: none;
+  transition: 0.75s;
+  box-shadow: 0.1em 0.25em rgba(0,0,0,0.7);
+}
+
+/* button hovered changes background color and size */
+.buttons button:hover{
+  background-color: red;
+  transform: scale(1.1);
+}
+
+/* button clicked scales it to 1.25 size */
+.buttons button:focus{
+  transform: scale(1.25);
+}
+
+
+/* button {
+  border:none;
+  position: absolute;
+  right:1rem;
+  top:1rem;
+  width:2.5rem;
+  height:2.5rem;
+  transform: scale(.8);
+  background: rgba(0,239,255,1);
+  border-radius:50%;
+  padding:.25rem;
+  transition:.25s;
+}
+button:focus {
+  outline:none;
+  background:#202592;
+}
+button:focus svg {
+  stroke: rgba(0,239,255,1);
+}
+
+svg {
+  stroke: #4e54c8;
+  position: absolute;
+  top:calc(1.25rem - 12px);
+  left:calc(1.25rem - 12px);
+  transition-delay: .25s;
+}
+button svg:nth-of-type(2) {
+  opacity:0;
+  transition-delay: 0ms;
+} */
+
+article > p { /* child combinator ZOEKT DIT UIT*/
+  padding:3rem 2rem;
+  margin-top: 0;
+  background:rgba(255,255,255, 0.5);
+  text-align:center;
+  border-radius: 1em;
+  width:100%;
+}
+
+/* expand content */
+body.expand {
+  font-size:1.15em;
+}
+
+body.expand article {
+  width:60vw;
+  max-width: 60vw;
+}
+
+body.expand button svg:first-of-type {
+  opacity:0;
+  transition-delay: 0ms;
+}
+
+body.expand button svg:nth-of-type(2) {
+  opacity:1;
+  transition-delay:.25s;
+}
+
+body.expand dd {
+  font-size: 1.75em;
+}
+
+body.expand img {
+  width:15em;
+}
