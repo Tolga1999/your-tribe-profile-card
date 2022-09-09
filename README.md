@@ -16,7 +16,7 @@ In de ontwerpfase nemen we ontwerpbeslissing die we later kunnen gebruiken in de
 
 _hierboven ziet u mijn versie 1 ontwerpen_
 ### Bouwen
-In de bouwfase heb ik beslissingen uit de ontwerpfase in HTML, CSS en JS gerealiseerd. Alle code is geschreven in Visual Studio Cude.
+In de bouwfase heb ik beslissingen uit de ontwerpfase in HTML, CSS en JS gerealiseerd. Alle code is geschreven in Visual Studio Code.
 <img src="https://user-images.githubusercontent.com/112855878/189326550-567cc2fc-14b6-4713-ac7c-cde9d2323d73.png" width="50%">
 
 _hierboven ziet u mijn versie 1 visitekaartje_
@@ -35,5 +35,7 @@ Nadat ik klaar was met de development-lifecyle voor versie 1, heb ik de lifecycl
 
 _hierboven ziet u de schetsen waaruit ik heb gekozen voor versie 2_
 
-<img src="https://user-images.githubusercontent.com/112855878/189332742-c4b68bf5-356c-4219-aa0f-6e37e2b5a2cb.png" width="15%">
+<img src="https://user-images.githubusercontent.com/112855878/189332742-c4b68bf5-356c-4219-aa0f-6e37e2b5a2cb.png" width="80%"> 
+<img src="https://user-images.githubusercontent.com/112855878/189333956-ae082553-c985-421a-b2d4-7f7075c7e11a.png" width="80%">
 
+_hierboven ziet u mijn versie 2_
