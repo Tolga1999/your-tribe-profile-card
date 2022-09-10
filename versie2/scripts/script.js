@@ -8,6 +8,7 @@ function readMore(){
     let mainH1 = document.getElementById("mainH1")
     let secondH1 = document.getElementById("secondH1")
     let thirdH1 = document.getElementById("thirdH1")
+    let readMoreButton = document.getElementById("readMoreButton");
 
     // === also compares data types instead of only the value
     if(more1.style.display !== "none"){
@@ -17,6 +18,7 @@ function readMore(){
         mainImage2.style.display = "inline"
         mainH1.style.display = "none"
         secondH1.style.display = "inline"
+        readMoreButton.innerHTML = "2"
     }else if(more2.style.display === "inline"){
         // more shows as inline so it can continue on the same line
         more2.style.display = "none"
@@ -25,6 +27,7 @@ function readMore(){
         mainImage3.style.display = "inline"
         secondH1.style.display = "none"
         thirdH1.style.display = "inline"
+        readMoreButton.innerHTML = "3"
     }else{
         more1.style.display = "inline"
         more3.style.display = "none"
@@ -32,8 +35,8 @@ function readMore(){
         mainImage3.style.display = "none"
         mainH1.style.display = "inline"
         thirdH1.style.display = "none"
+        readMoreButton.innerHTML = "1"
     }
-
 }
 
 

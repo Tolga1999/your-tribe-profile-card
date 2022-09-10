@@ -82,6 +82,9 @@ p {
 .button{
   align-self: center;
   width: 4vw;
+  font-size: 1.25vw;
+  font-weight: bold;
+  color: rgba(166, 108, 255, 1);
   padding: 0.5em;
   border: none;
   border-radius: 1em;
@@ -89,10 +92,6 @@ p {
   transition: 0.75s;
   /* box-shadow: 0.2em 0.25em rgba(255, 255, 255,1); */
   margin-top: 1vw;
-}
-
-.arrowDown{
-  width: 2vw;
 }
 
 /* button hovered changes background color and size */
